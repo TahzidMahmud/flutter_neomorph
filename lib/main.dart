@@ -28,7 +28,7 @@ class NeoApp extends StatelessWidget {
                     body: null,
                     elevation: 4,
                   implicitCurve: Curves.linear,
-                  shadowColor: Colors.green,
+                  shadowColor: Colors.black12,
 
                 ),
               ),
@@ -37,7 +37,7 @@ class NeoApp extends StatelessWidget {
                   height: 300,
                   width: 300,
                   decoration: BoxDecoration(
-                      color: Color(0xffffffff),
+                      color: Color(0xffffff),
                       boxShadow: [
                         BoxShadow(
                           blurRadius: 10,
